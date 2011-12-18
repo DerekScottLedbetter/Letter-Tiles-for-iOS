@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65016334149DDB8A00322A90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65016333149DDB8A00322A90 /* UIKit.framework */; };
+		65016336149DDB8A00322A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65016335149DDB8A00322A90 /* Foundation.framework */; };
+		65016338149DDB8A00322A90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65016337149DDB8A00322A90 /* CoreGraphics.framework */; };
+		6501633E149DDB8A00322A90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6501633C149DDB8A00322A90 /* InfoPlist.strings */; };
+		65016340149DDB8A00322A90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6501633F149DDB8A00322A90 /* main.m */; };
+		65016344149DDB8A00322A90 /* LetterTilesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65016343149DDB8A00322A90 /* LetterTilesAppDelegate.m */; };
+		65016347149DDB8A00322A90 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65016345149DDB8A00322A90 /* MainWindow.xib */; };
+		6501634A149DDB8A00322A90 /* LetterTilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65016349149DDB8A00322A90 /* LetterTilesViewController.m */; };
+		6501634D149DDB8A00322A90 /* LetterTilesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6501634B149DDB8A00322A90 /* LetterTilesViewController.xib */; };
+		65016355149DDB8A00322A90 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65016354149DDB8A00322A90 /* SenTestingKit.framework */; };
+		65016356149DDB8A00322A90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65016333149DDB8A00322A90 /* UIKit.framework */; };
+		65016357149DDB8A00322A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65016335149DDB8A00322A90 /* Foundation.framework */; };
+		65016358149DDB8A00322A90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65016337149DDB8A00322A90 /* CoreGraphics.framework */; };
+		65016360149DDB8A00322A90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6501635E149DDB8A00322A90 /* InfoPlist.strings */; };
+		65016362149DDB8A00322A90 /* LetterTilesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 65016361149DDB8A00322A90 /* LetterTilesTests.h */; };
+		65016364149DDB8A00322A90 /* LetterTilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65016363149DDB8A00322A90 /* LetterTilesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65016359149DDB8A00322A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65016326149DDB8A00322A90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6501632E149DDB8A00322A90;
+			remoteInfo = LetterTiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6501632F149DDB8A00322A90 /* LetterTiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetterTiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65016333149DDB8A00322A90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65016335149DDB8A00322A90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65016337149DDB8A00322A90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6501633B149DDB8A00322A90 /* LetterTiles-Info.plist */ = {isa = PBXFileReference; path = "LetterTiles-Info.plist"; sourceTree = "<group>"; };
+		6501633D149DDB8A00322A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6501633F149DDB8A00322A90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65016341149DDB8A00322A90 /* LetterTiles-Prefix.pch */ = {isa = PBXFileReference; path = "LetterTiles-Prefix.pch"; sourceTree = "<group>"; };
+		65016342149DDB8A00322A90 /* LetterTilesAppDelegate.h */ = {isa = PBXFileReference; path = LetterTilesAppDelegate.h; sourceTree = "<group>"; };
+		65016343149DDB8A00322A90 /* LetterTilesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterTilesAppDelegate.m; sourceTree = "<group>"; };
+		65016346149DDB8A00322A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		65016348149DDB8A00322A90 /* LetterTilesViewController.h */ = {isa = PBXFileReference; path = LetterTilesViewController.h; sourceTree = "<group>"; };
+		65016349149DDB8A00322A90 /* LetterTilesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterTilesViewController.m; sourceTree = "<group>"; };
+		6501634C149DDB8A00322A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LetterTilesViewController.xib; sourceTree = "<group>"; };
+		65016353149DDB8A00322A90 /* LetterTilesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetterTilesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65016354149DDB8A00322A90 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6501635D149DDB8A00322A90 /* LetterTilesTests-Info.plist */ = {isa = PBXFileReference; path = "LetterTilesTests-Info.plist"; sourceTree = "<group>"; };
+		6501635F149DDB8A00322A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65016361149DDB8A00322A90 /* LetterTilesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetterTilesTests.h; sourceTree = "<group>"; };
+		65016363149DDB8A00322A90 /* LetterTilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterTilesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6501632C149DDB8A00322A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65016334149DDB8A00322A90 /* UIKit.framework in Frameworks */,
+				65016336149DDB8A00322A90 /* Foundation.framework in Frameworks */,
+				65016338149DDB8A00322A90 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6501634F149DDB8A00322A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65016355149DDB8A00322A90 /* SenTestingKit.framework in Frameworks */,
+				65016356149DDB8A00322A90 /* UIKit.framework in Frameworks */,
+				65016357149DDB8A00322A90 /* Foundation.framework in Frameworks */,
+				65016358149DDB8A00322A90 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65016324149DDB8A00322A90 = {
+			isa = PBXGroup;
+			children = (
+				65016339149DDB8A00322A90 /* LetterTiles */,
+				6501635B149DDB8A00322A90 /* LetterTilesTests */,
+				65016332149DDB8A00322A90 /* Frameworks */,
+				65016330149DDB8A00322A90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65016330149DDB8A00322A90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6501632F149DDB8A00322A90 /* LetterTiles.app */,
+				65016353149DDB8A00322A90 /* LetterTilesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65016332149DDB8A00322A90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65016333149DDB8A00322A90 /* UIKit.framework */,
+				65016335149DDB8A00322A90 /* Foundation.framework */,
+				65016337149DDB8A00322A90 /* CoreGraphics.framework */,
+				65016354149DDB8A00322A90 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65016339149DDB8A00322A90 /* LetterTiles */ = {
+			isa = PBXGroup;
+			children = (
+				65016342149DDB8A00322A90 /* LetterTilesAppDelegate.h */,
+				65016343149DDB8A00322A90 /* LetterTilesAppDelegate.m */,
+				65016345149DDB8A00322A90 /* MainWindow.xib */,
+				65016348149DDB8A00322A90 /* LetterTilesViewController.h */,
+				65016349149DDB8A00322A90 /* LetterTilesViewController.m */,
+				6501634B149DDB8A00322A90 /* LetterTilesViewController.xib */,
+				6501633A149DDB8A00322A90 /* Supporting Files */,
+			);
+			path = LetterTiles;
+			sourceTree = "<group>";
+		};
+		6501633A149DDB8A00322A90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6501633B149DDB8A00322A90 /* LetterTiles-Info.plist */,
+				6501633C149DDB8A00322A90 /* InfoPlist.strings */,
+				6501633F149DDB8A00322A90 /* main.m */,
+				65016341149DDB8A00322A90 /* LetterTiles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6501635B149DDB8A00322A90 /* LetterTilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				65016361149DDB8A00322A90 /* LetterTilesTests.h */,
+				65016363149DDB8A00322A90 /* LetterTilesTests.m */,
+				6501635C149DDB8A00322A90 /* Supporting Files */,
+			);
+			path = LetterTilesTests;
+			sourceTree = "<group>";
+		};
+		6501635C149DDB8A00322A90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6501635D149DDB8A00322A90 /* LetterTilesTests-Info.plist */,
+				6501635E149DDB8A00322A90 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6501632E149DDB8A00322A90 /* LetterTiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65016367149DDB8A00322A90 /* Build configuration list for PBXNativeTarget "LetterTiles" */;
+			buildPhases = (
+				6501632B149DDB8A00322A90 /* Sources */,
+				6501632C149DDB8A00322A90 /* Frameworks */,
+				6501632D149DDB8A00322A90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetterTiles;
+			productName = LetterTiles;
+			productReference = 6501632F149DDB8A00322A90 /* LetterTiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65016352149DDB8A00322A90 /* LetterTilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6501636A149DDB8A00322A90 /* Build configuration list for PBXNativeTarget "LetterTilesTests" */;
+			buildPhases = (
+				6501634E149DDB8A00322A90 /* Sources */,
+				6501634F149DDB8A00322A90 /* Frameworks */,
+				65016350149DDB8A00322A90 /* Resources */,
+				65016351149DDB8A00322A90 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6501635A149DDB8A00322A90 /* PBXTargetDependency */,
+			);
+			name = LetterTilesTests;
+			productName = LetterTilesTests;
+			productReference = 65016353149DDB8A00322A90 /* LetterTilesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65016326149DDB8A00322A90 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 65016329149DDB8A00322A90 /* Build configuration list for PBXProject "LetterTiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65016324149DDB8A00322A90;
+			productRefGroup = 65016330149DDB8A00322A90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6501632E149DDB8A00322A90 /* LetterTiles */,
+				65016352149DDB8A00322A90 /* LetterTilesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6501632D149DDB8A00322A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6501633E149DDB8A00322A90 /* InfoPlist.strings in Resources */,
+				65016347149DDB8A00322A90 /* MainWindow.xib in Resources */,
+				6501634D149DDB8A00322A90 /* LetterTilesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65016350149DDB8A00322A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65016360149DDB8A00322A90 /* InfoPlist.strings in Resources */,
+				65016362149DDB8A00322A90 /* LetterTilesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65016351149DDB8A00322A90 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6501632B149DDB8A00322A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65016340149DDB8A00322A90 /* main.m in Sources */,
+				65016344149DDB8A00322A90 /* LetterTilesAppDelegate.m in Sources */,
+				6501634A149DDB8A00322A90 /* LetterTilesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6501634E149DDB8A00322A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65016364149DDB8A00322A90 /* LetterTilesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6501635A149DDB8A00322A90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6501632E149DDB8A00322A90 /* LetterTiles */;
+			targetProxy = 65016359149DDB8A00322A90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6501633C149DDB8A00322A90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6501633D149DDB8A00322A90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65016345149DDB8A00322A90 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65016346149DDB8A00322A90 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6501634B149DDB8A00322A90 /* LetterTilesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6501634C149DDB8A00322A90 /* en */,
+			);
+			name = LetterTilesViewController.xib;
+			sourceTree = "<group>";
+		};
+		6501635E149DDB8A00322A90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6501635F149DDB8A00322A90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65016365149DDB8A00322A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65016366149DDB8A00322A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65016368149DDB8A00322A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetterTiles/LetterTiles-Prefix.pch";
+				INFOPLIST_FILE = "LetterTiles/LetterTiles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65016369149DDB8A00322A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetterTiles/LetterTiles-Prefix.pch";
+				INFOPLIST_FILE = "LetterTiles/LetterTiles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6501636B149DDB8A00322A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LetterTiles.app/LetterTiles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetterTiles/LetterTiles-Prefix.pch";
+				INFOPLIST_FILE = "LetterTilesTests/LetterTilesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6501636C149DDB8A00322A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LetterTiles.app/LetterTiles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LetterTiles/LetterTiles-Prefix.pch";
+				INFOPLIST_FILE = "LetterTilesTests/LetterTilesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65016329149DDB8A00322A90 /* Build configuration list for PBXProject "LetterTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65016365149DDB8A00322A90 /* Debug */,
+				65016366149DDB8A00322A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65016367149DDB8A00322A90 /* Build configuration list for PBXNativeTarget "LetterTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65016368149DDB8A00322A90 /* Debug */,
+				65016369149DDB8A00322A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6501636A149DDB8A00322A90 /* Build configuration list for PBXNativeTarget "LetterTilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6501636B149DDB8A00322A90 /* Debug */,
+				6501636C149DDB8A00322A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65016326149DDB8A00322A90 /* Project object */;
+}
